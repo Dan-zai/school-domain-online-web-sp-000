@@ -18,9 +18,15 @@ end
 end 
 
 
-def grade(grade)
-  @roster[grade]
-end
 
-end
+  def grade(grade)
+    @roster[grade]
+  end 
+
+  def sort 
+    sorted_hash = {}
+    @roster.each {|k, v| sorted_hash[k] = v.sort}
+    sorted_hash
+  end 
+end 
   

@@ -13,6 +13,10 @@ def roster
 end
 
 def add_student(name, grade)
-  roster[name] = []
-  hash[name] << grade
+  roster[grade] = []
+  roster[grade] << name
+  
+end 
+
+
   

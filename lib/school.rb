@@ -14,5 +14,5 @@ end
 
 def add_student(name, grade)
   roster[name] = []
-  hash[name] << name
+  hash[name] << grade
   

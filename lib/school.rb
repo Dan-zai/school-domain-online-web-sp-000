@@ -15,15 +15,10 @@ end
 		@roster[grade] = [] if ! @roster[grade]
 		@roster[grade] << name
 	end
-	end
 
 def grade(grade)
   @roster[grade]
 end
-
-
-def sort 
-  @roster.each {|key, arrayvalue| @roster[key] = arrayvalue.sort}
 
 
 

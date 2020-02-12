@@ -21,6 +21,9 @@ def grade(grade)
 end
 
 
-
+def sort 
+  @roster.each {|key, arrayvalue| @roster[key] = arrayvalue.sort}
+end
+  
 end
   

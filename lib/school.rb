@@ -23,8 +23,7 @@ end
 
 def sort 
   
-  @roster.each 
-
+  @roster.each {|n, array| @roster
 
 
 

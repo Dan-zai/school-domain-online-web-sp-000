@@ -8,3 +8,5 @@ def initialize(name)
   
 end 
 
+def roster
+  @roster

@@ -11,11 +11,10 @@ def roster
   @roster
 end
 
-def add_student(name, grade)
- if @roster[grade] = [] || @roster[grade]
-  @roster[grade] << name
-end 
-end
+	def add_student(stud, grade)
+		@roster[grade] = [] if ! @roster[grade]
+		@roster[grade] << stud
+	end
 
 def grade(grade)
   @roster[grade]

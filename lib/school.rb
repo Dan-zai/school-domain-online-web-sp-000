@@ -1,18 +1,23 @@
-class School
-  def initialize(school) 
-    @school = school 
-    @roster = {} 
-  end 
+class School 
 
-  def roster
-    @roster
-  end 
+attr_reader :roster, :name
 
-  def add_student(name, grade)
-   if  @roster[grade] || @roster[grade] = []  
-     @roster[grade] << name
-   end 
-  end 
+def initialize(name)
+  @name = name
+  @roster = {}
+end 
+
+def roster
+  @roster
+end
+
+def add_student(name, grade)
+ if roster[grade] = [] 
+  roster[grade] << name
+end
+end 
+
+
 
   def grade(grade)
     @roster[grade]
@@ -24,4 +29,4 @@ class School
     sorted_hash
   end 
 end 
-
+  

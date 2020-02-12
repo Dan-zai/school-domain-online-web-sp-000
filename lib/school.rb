@@ -21,7 +21,9 @@ def grade(grade)
 end
 
 
-def sort
+def sort 
+  
+  @roster.each 
 
 
 

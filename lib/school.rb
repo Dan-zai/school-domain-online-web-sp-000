@@ -23,7 +23,7 @@ end
 
 def sort 
   
-  @roster.each {|key, arrayvalue| @roster[key] = arrayvalue.sort
+  @roster.each {|key, arrayvalue| @roster[key] = arrayvalue.sort}
 
 
 
